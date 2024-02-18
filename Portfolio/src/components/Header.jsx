@@ -1,7 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Navigate } from 'react-router';
+import Navigate from './Navigation'
 
 function Header() {
   return (
@@ -10,7 +10,7 @@ function Header() {
       className="bg-danger"
     >
       <Container>
-        <Navbar.Brand href="#home">Spencer Cox</Navbar.Brand>
+        <Navbar.Brand>Spencer Cox</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
          <Navigate />

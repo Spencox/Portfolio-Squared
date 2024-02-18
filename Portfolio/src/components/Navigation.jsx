@@ -6,13 +6,21 @@ function Navigate() {
 
     return (
         <Nav className="me-auto">
-            <Nav.Link 
+            <Link 
                 to="/" 
                 className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-            >About Me</Nav.Link>
-            <Nav.Link href="#">Portfolio</Nav.Link>
-            <Nav.Link href="#">Contact Me</Nav.Link>
-            <Nav.Link href="#">Resume</Nav.Link>
+            >About Me</Link>
+            <Link 
+                to="/Contact"
+                className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+            >Contact Me</Link>
+            <Link  
+                to="/Portfolio" 
+                className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>Portfolio</Link>
+            <Link 
+                to="/Resume" 
+                className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+             >Resume</Link>
         </Nav>
     )
 }
