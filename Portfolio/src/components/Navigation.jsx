@@ -10,17 +10,18 @@ function Navigate() {
                 to="/" 
                 className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
             >About Me</Link>
+            <Link  
+                to="/Portfolio" 
+                className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+            >Portfolio</Link>
             <Link 
                 to="/Contact"
                 className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
             >Contact Me</Link>
-            <Link  
-                to="/Portfolio" 
-                className={currentPage === '/' ? 'nav-link active' : 'nav-link'}>Portfolio</Link>
             <Link 
                 to="/Resume" 
                 className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
-             >Resume</Link>
+            >Resume</Link>
         </Nav>
     )
 }

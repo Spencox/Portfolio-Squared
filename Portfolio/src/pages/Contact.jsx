@@ -1,9 +1,7 @@
 import { useState } from 'react';
-import Button from 'react-bootstrap/Button';
-import Form from 'react-bootstrap/Form';
-import Container from 'react-bootstrap/Container';
+import { Button, Form, Container } from 'react-bootstrap';
 
-function FormExample() {
+function Contact() {
   const [validated, setValidated] = useState(false);
 
   const handleSubmit = (event) => {
@@ -53,21 +51,9 @@ function FormExample() {
             Please provide a message.
           </Form.Control.Feedback>
         </Form.Group>
-        {/* Error message */}
-        <div className="text-danger text-center mb-3">
-          {validated && (
-            <div>
-              Please fill out all required fields correctly.
-            </div>
-          )}
-        </div>
-        {/* Submit button */}
-        <div className="text-center">
-          <Button type="submit">Submit form</Button>
-        </div>
       </Form>
     </Container>
   );
 }
 
-export default FormExample;
+export default Contact;
