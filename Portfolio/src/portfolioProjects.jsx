@@ -1,9 +1,12 @@
+import '../src/assets/mugshot.png' 
+
 const projects = [
     {
       id: 1,
       name: 'Nimbus Nexus',
       deployedUrl: 'https://spencox.github.io/Nimbus-Nexus/',
-      gitHubRepoUrl: 'https://github.com/Spencox/Nimbus-Nexus'
+      gitHubRepoUrl: 'https://github.com/Spencox/Nimbus-Nexus',
+      imgPath: '../src/assets/mugshot.png'
     },
     {
     id: 2,

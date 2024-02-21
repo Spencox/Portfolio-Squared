@@ -5,14 +5,14 @@ function Navigate() {
     const currentPage = useLocation().pathname;
 
     return (
-        <Nav className="me-auto">
+        <Nav className="me-auto align-items-center" style={{ color: 'yellow' }}>
             <Link 
                 to="/" 
                 className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
             >About Me</Link>
             <Link  
                 to="/Portfolio" 
-                className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
             >Portfolio</Link>
             <Link 
                 to="/Contact"
@@ -20,7 +20,7 @@ function Navigate() {
             >Contact Me</Link>
             <Link 
                 to="/Resume" 
-                className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
             >Resume</Link>
         </Nav>
     )

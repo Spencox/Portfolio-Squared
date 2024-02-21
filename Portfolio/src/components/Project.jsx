@@ -7,7 +7,7 @@ function Project({ projects }) {
       <Row xs={1} md={2} lg={2} xl={2} className="g-4">
         {projects.map((project) => (
           <Col key={project.id}>
-            <Card className='m-4' style={{ height: '300px', backgroundImage: 'url("https://2.img-dpreview.com/files/p/E~C1000x0S4000x4000T1200x1200~articles/3925134721/0266554465.jpeg")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
+            <Card className='m-4' style={{ height: '300px', backgroundImage: `url(${project.imagePath})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
               <Card.Body>
                 <Card.Link href={project.deployedUrl} style={{ color: 'white' }}>
                   <Card.Title style={{ color: 'white' }}>{project.name}</Card.Title>
