@@ -6,12 +6,9 @@ function App() {
   return (
     <>
         <Header />
-          <main className="py-3 bg-dark text-light">
-            <Outlet />
-          </main>
+        <Outlet />   
         <Footer />
     </>
-
   )
 }
 

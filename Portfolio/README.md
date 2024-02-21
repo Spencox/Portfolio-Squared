@@ -6,3 +6,9 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+
+CITE https://react-bootstrap.netlify.app/ 
+CITE https://react.dev/
+CITE https://vitejs.dev/guide/
+Coolers = https://coolors.co/df9a57-fc7a57-fcd757-eefc57-5e5b52
