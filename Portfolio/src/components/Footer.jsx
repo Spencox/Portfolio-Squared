@@ -7,7 +7,7 @@ const linkedInUrl = 'https://www.linkedin.com/in/spencer-cox-pe'
 
 const Footer = () => {
     return (
-        <footer className='bg-custom-color' style={{ backgroundColor: '#fcd757' }} >
+        <footer className='bg-custom-color' style={{ backgroundColor: '#fcd757', position: 'fixed', bottom: 0, width: '100%' }} >
             <Container>
                 <Row>
                     <Col className="py-4 text-center">
