@@ -12,10 +12,10 @@ const Footer = () => {
                 <Row>
                     <Col className="py-4 text-center">
                         <a href={githubUrl} target="_blank">
-                            <img src={githubLogo} alt="Github Link" style={{ maxWidth: '25px', marginRight: '10px' }} />
+                            <img src={githubLogo} alt="Github Link" style={{ maxWidth: '40px', marginRight: '10px'}} />
                         </a>
                         <a href={linkedInUrl} target="_blank">
-                            <img src={linkedInLogo} alt="LinkedIn Link" style={{ maxWidth: '25px' }} />
+                            <img src={linkedInLogo} alt="LinkedIn Link" style={{ maxWidth: '40px'}} />
                         </a>
                     </Col>
                 </Row>

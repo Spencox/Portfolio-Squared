@@ -1,3 +1,4 @@
+import React from 'react';
 import Nav from 'react-bootstrap/Nav';
 import { Link, useLocation } from 'react-router-dom';
 
@@ -5,22 +6,42 @@ function Navigate() {
     const currentPage = useLocation().pathname;
 
     return (
-        <Nav className="me-auto align-items-center" style={{ color: 'yellow' }}>
+        <Nav className="me-auto align-items-center">
             <Link 
                 to="/" 
-                className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+                className="nav-link"
+                style={{ 
+                    fontSize: 'x-large', 
+                    color: currentPage === '/' ? '#FC7A57' : '#5E5B52',
+                    fontWeight: currentPage === '/' ? 'bold' : 'normal'
+                }}
             >About Me</Link>
             <Link  
                 to="/Portfolio" 
-                className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
+                className="nav-link"
+                style={{ 
+                    fontSize: 'x-large', 
+                    color: currentPage === '/Portfolio' ? '#FC7A57' : '#5E5B52',
+                    fontWeight: currentPage === '/Portfolio' ? 'bold' : 'normal'
+                }}
             >Portfolio</Link>
             <Link 
                 to="/Contact"
-                className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+                className="nav-link"
+                style={{ 
+                    fontSize: 'x-large', 
+                    color: currentPage === '/Contact' ? '#FC7A57' : '#5E5B52',
+                    fontWeight: currentPage === '/Contact' ? 'bold' : 'normal'
+                }}
             >Contact Me</Link>
             <Link 
                 to="/Resume" 
-                className={currentPage === '/Resume' ? 'nav-link active' : 'nav-link'}
+                className="nav-link"
+                style={{ 
+                    fontSize: 'x-large', 
+                    color: currentPage === '/Resume' ? '#FC7A57' : '#5E5B52',
+                    fontWeight: currentPage === '/Resume' ? 'bold' : 'normal'
+                }}
             >Resume</Link>
         </Nav>
     )

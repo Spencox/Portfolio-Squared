@@ -7,13 +7,21 @@ function Header() {
   return (
     <Navbar 
       expand="lg" 
-      style={{ backgroundColor: '#FC7A57' }}
+      style={{ backgroundColor: '#FCD757' }}
     >
-      <Container style={{ backgroundColor: '#FC7A57' }}>
-        <Navbar.Brand>Spencer Cox</Navbar.Brand>
+      <Container style={{ backgroundColor: '#FCD757' }}>
+        <Navbar.Brand 
+          style={{ 
+            color: '#5E5B52', 
+            textDecoration: 'none', 
+            cursor: 'default' 
+          }}
+        >
+          Spencer Cox
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-         <Navigate />
+          <Navigate />
         </Navbar.Collapse>
       </Container>
     </Navbar>

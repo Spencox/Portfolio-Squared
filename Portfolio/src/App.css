@@ -1,7 +1,7 @@
 * {
-    font-family: "Protest Riot", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 400;
+  font-style: normal;
   }
   
 main {
@@ -11,7 +11,8 @@ main {
 }
 
 .navbar-brand {
-  color: #5E5B52;
+  color: #FC7A57;
+  font-size: xx-large;
 }
 
 
