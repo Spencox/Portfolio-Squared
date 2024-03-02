@@ -19,7 +19,7 @@ To run this project locally, follow these steps:
 1. Clone the GitHub repository:
 
     ```bash
-    git clone https://github.com/Spencox/Portfolio.git
+    git clone https://github.com/Spencox/Portfolio-Squared.git
     ```
 
 2. Navigate into the project directory:
@@ -36,9 +36,9 @@ To run this project locally, follow these steps:
 
 ## Usage
 
-Deployed Here:
+Deployed Here: https://spencercox.netlify.app/
 
-Github Repo: 
+Github Repo: https://github.com/Spencox/Portfolio-Squared/tree/main/Portfolio
 
 To use this portfolio, follow these steps:
 
@@ -69,5 +69,4 @@ To use this portfolio, follow these steps:
 
 If you have any questions, feel free to reach out:
 
-- GitHub Repo: [https://github.com/Spencox/Portfolio](https://github.com/Spencox/Portfolio)
 - Email: spencox@gmail.com
