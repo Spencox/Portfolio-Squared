@@ -7,7 +7,7 @@ export default function Resume() {
       <div>
         <h1 className="py-4">Resume</h1>
         <h3>
-          <a href="../src/assets/Spencer_Cox_Resume.pdf" download className="py-3" style={{ color: 'inherit', textDecoration: 'none', fontWeight: 'bold' }}>
+          <a href="/assets/Spencer_Cox_Resume.pdf" download className="py-3" style={{ color: 'inherit', textDecoration: 'none', fontWeight: 'bold' }}>
             Download PDF Resume <span role="img" aria-label="document">📄</span>
           </a>
         </h3>
