@@ -1,13 +1,13 @@
 * {
-  font-family: "Luckiest Guy", cursive;
+  font-family: "Shadows Into Light", cursive;
   font-weight: 400;
   font-style: normal;
   }
   
 main {
-    height: 100vh;
-    color: #EEFC57;
-    background-color: #5e5b52;
+    min-height: 100vh;
+    color: #FFFCFF;
+    background-color: #50514F;;
 }
 
 .navbar-brand {

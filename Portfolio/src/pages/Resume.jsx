@@ -7,7 +7,9 @@ export default function Resume() {
       <div>
         <h1 className="py-4">Resume</h1>
         <h3>
-          <a href="../src/assets/Spencer_Cox_Resume.pdf" download className="py-3">Download PDF Resume</a>
+          <a href="../src/assets/Spencer_Cox_Resume.pdf" download className="py-3" style={{ color: 'inherit', textDecoration: 'none', fontWeight: 'bold' }}>
+            Download PDF Resume <span role="img" aria-label="document">📄</span>
+          </a>
         </h3>
         <h2 className="py-3">Front-end Technologies:</h2>
         <ul className='fs-5'>
@@ -29,8 +31,8 @@ export default function Resume() {
           <li>JWT</li>
           <li>Axios</li>
           <li>Nodemon</li>
-          <li>Body-parser (middleware for parsing request bodies)</li>
-          <li>Bcrypt.js (for hashing passwords)</li>
+          <li>Body-parser</li>
+          <li>Bcrypt.js</li>
         </ul>
       </div>
     </Container>
