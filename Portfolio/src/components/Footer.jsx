@@ -1,6 +1,6 @@
 import React from "react";
-import githubLogo from '../assets/github-mark.svg';
-import linkedInLogo from '../assets/linkedin.svg';
+import githubLogo from '/assets/github-mark.svg';
+import linkedInLogo from '/assets/linkedin.svg';
 import { Container, Row, Col } from "react-bootstrap";
 const githubUrl = 'https://github.com/Spencox'
 const linkedInUrl = 'https://www.linkedin.com/in/spencer-cox-pe'
