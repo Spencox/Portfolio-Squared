@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container } from 'react-bootstrap';
 
 export default function AboutMe() {
@@ -14,6 +15,9 @@ export default function AboutMe() {
         <p className="py-3 fs-5">
           As I continue to learn and grow in this dynamic field, I'm eager to collaborate with like-minded professionals, contribute to innovative projects, and make a meaningful impact on the digital landscape. Join me on this exciting journey as we explore the limitless possibilities of web development together.
         </p>
+      </div>
+      <div style={{ position: 'absolute', bottom: 0, right: 0 }}>
+        <img src="/assets/mugshot.png" alt="Your Image" style={{ width: '500px', height: 'auto' }} />
       </div>
     </Container>
   );

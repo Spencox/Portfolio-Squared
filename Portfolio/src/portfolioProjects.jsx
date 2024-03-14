@@ -1,10 +1,10 @@
 const projects = [
     {
       id: 1,
-      name: 'Nimbus Nexus',
-      deployedUrl: 'https://spencox.github.io/Nimbus-Nexus/',
-      gitHubRepoUrl: 'https://github.com/Spencox/Nimbus-Nexus',
-      imgPath: '/assets/01_nimbus_weather.png'
+      name: 'Gnome Depot',
+      deployedUrl: 'https://gnome-depot.onrender.com/',
+      gitHubRepoUrl: 'https://github.com/Spencox/gnome-depot',
+      imgPath: '/assets/01_Gnome_Depot.png'
     },
     {
     id: 2,
@@ -36,10 +36,10 @@ const projects = [
     },
     {
       id: 6,
-      name: 'Accessibility Refactor',
-      deployedUrl: 'https://spencox.github.io/Universal-Code-Quiz/',
-      gitHubRepoUrl: 'https://github.com/Spencox/Universal-Code-Quiz',
-      imgPath: '/assets/06_accessability.png'
+      name: 'Nimbus Nexus',
+      deployedUrl: 'https://spencox.github.io/Nimbus-Nexus/',
+      gitHubRepoUrl: 'https://github.com/Spencox/Nimbus-Nexus',
+      imgPath: '/assets/06_nimbus_weather.png'
     },
 ];
 
